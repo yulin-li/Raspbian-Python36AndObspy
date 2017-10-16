@@ -9,5 +9,5 @@ python3.6 -V
 pip3.6 -V
 
 # Install python packages
-pip3.6 install -U numpy
-pip3.6 install -U obspy
+sudo pip3.6 install -U numpy
+sudo pip3.6 install -U obspy
