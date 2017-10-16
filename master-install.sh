@@ -5,5 +5,5 @@
 . config/python-3.6/py3.6-install.sh
 
 # Install obspy from source
-. config/Obspy/obspy-apt-requirements.sh
-. config/Obspy/obspy-install.sh
+. config/obspy/obspy-apt-requirements.sh
+. config/obspy/obspy-install.sh
