@@ -10,6 +10,14 @@ The current setup has been tested on [Raspbian Stretch](https://www.raspberrypi.
 
 It's recommended to run the installation one step at a time OR do the full installation when you have several hours to allow it to complete.
 
+## Change Repository Mirror
+
+One way to increase download speed is to use your local mirror of Raspbian sources, Raspberry and PyPI. If you locate in mainland China especially you are a user of Cernet, it is strongly recommneded that you use [the mirror](https://mirrors.tuna.tsinghua.edu.cn/) provide by [Tsinghua University TUNA Assosiation](https://tuna.moe/). To change TUNA mirror, simply run:
+
+```bash
+pi@raspberrypi $ . chinese_mirror_conf.sh
+```
+
 ## Full Installation
 To run the full installation use master-install.sh.  Again, recommended to do this overnight or when you can dedicate several hours for completion.
 
