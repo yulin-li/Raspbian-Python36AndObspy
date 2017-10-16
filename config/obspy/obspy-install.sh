@@ -5,7 +5,7 @@ sudo apt-get -y update
 sudo apt-get -y upgrade
 
 # Echo Python and pip version
-Python3.6 -V
+python3.6 -V
 pip3.6 -V
 
 # Install python packages
