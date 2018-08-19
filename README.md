@@ -17,7 +17,7 @@ It's recommended to run the installation one step at a time OR do the full insta
 One way to increase download speed is to use your local mirror of Raspbian sources, Raspberry and PyPI. If you locate in mainland China especially you are a user of Cernet, it is strongly recommneded that you use [the mirror](https://mirrors.tuna.tsinghua.edu.cn/) provide by [Tsinghua University TUNA Assosiation](https://tuna.moe/). To change TUNA mirror, simply run:
 
 ```bash
-pi@raspberrypi $ . chinese_mirror_conf.sh
+pi@raspberrypi $ sudo bash chinese_mirror_conf.sh
 ```
 
 ## Full Installation
@@ -46,7 +46,7 @@ The following software will be installed with the full installation:
 ### To run full installation:
 
 ```bash
-pi@raspberrypi $ . master-install.sh
+pi@raspberrypi $ sudo bash .master-install.sh
 ```
 
 ## Python 3.6 Installation
@@ -57,7 +57,7 @@ _Python 3.6 installation on Raspbian was inspired by
 ### To install python 3.6:
 
 ```bash
-pi@raspberrypi $ . master-python3.6-install.sh
+pi@raspberrypi $ sudo bash .master-python3.6-install.sh
 ```
 
 **Note:** _At the time of writing this guide Python 3.6.3 was the latest release.  If a newer release is available via the python [website](https://www.python.org/downloads/source/), then please change `LATEST_PYTHON36_VERSION` variable at the begining of `config/py3.6-install.sh`._
