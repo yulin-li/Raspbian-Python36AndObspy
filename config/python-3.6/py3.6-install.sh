@@ -4,7 +4,7 @@
 #### SOURCE:  https://gist.github.com/dschep/24aa61672a2092246eaca2824400d37f
 ####
 ####
-LATEST_PYTHON36_VERSION='3.6.3'
+LATEST_PYTHON36_VERSION='3.6.6'
 # Update system
 sudo apt-get -y update
 sudo apt-get -y upgrade
