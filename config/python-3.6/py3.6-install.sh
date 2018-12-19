@@ -11,7 +11,11 @@ sudo apt-get -y upgrade
 
 # Download and install Python 3.6
 cd ~/Downloads/
-wget https://www.python.org/ftp/python/${LATEST_PYTHON36_VERSION}/Python-${LATEST_PYTHON36_VERSION}.tar.xz
+if [ "$1" == "--sohu" ]; then
+        wget http://mirrors.sohu.com/python/${LATEST_PYTHON36_VERSION}/Python-${LATEST_PYTHON36_VERSION}.tar.xz
+else
+        wget https://www.python.org/ftp/python/${LATEST_PYTHON36_VERSION}/Python-${LATEST_PYTHON36_VERSION}.tar.xz
+fi
 tar xf Python-${LATEST_PYTHON36_VERSION}.tar.xz
 cd Python-${LATEST_PYTHON36_VERSION}
 ./configure
